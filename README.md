@@ -82,14 +82,3 @@ This challenge is written from the perspective of a **full-stack JavaScript deve
 Examples and analogies are tied to real use cases — not just toy code.
 
 ---
-
-## 📌 How to Use This Repo
-
-1. Read each day's `README.md` in order
-2. Try to answer the questions yourself before reading the explanation
-3. Run the code snippets in your browser console or a Node.js REPL
-4. Revisit any day you feel shaky on — repetition is the point
-
----
-
-_Started: 2025 · Personal revision challenge · JavaScript from the ground up_
