@@ -1,14 +1,32 @@
-# ⚡ 20-Day JavaScript Revision Challenge
+# 20 Days of JavaScript — Back to the Fundamentals
 
-> Strengthen fundamentals. Sharpen problem-solving. Go deeper into the language.
+![20 Days of JavaScript](./banner.png)
 
-A structured 20-day self-challenge to revisit JavaScript from the ground up — not just syntax, but *how* and *why* it works. Each day targets a focused concept with notes, examples, and questions answered.
+> **Strong Fundamentals. Endless Possibilities.**
 
 ---
 
-## 🎯 Goal
+## 💬 Why This Challenge?
 
-Most developers write JavaScript daily but rarely stop to understand what's happening under the hood. This challenge is about fixing that — building a rock-solid mental model of JS before layering frameworks on top.
+I already know JavaScript.
+
+But this time, I'm revisiting it with a completely different mindset.
+
+I'm not going through these concepts because I'm new to them. I'm doing it because I want to strengthen my fundamentals so deeply that I can **confidently explain, discuss, and solve problems** around any JavaScript concept — during interviews, in projects, and in real-world development.
+
+As developers grow, the same concepts begin to make deeper sense. Things that once looked "basic" start revealing how powerful they actually are.
+
+So for the next **20 days**, I'll be revisiting JavaScript — not as a beginner, but as a developer focused on sharpening fundamentals, improving problem-solving skills, and building a deeper understanding of the language.
+
+---
+
+## 🎯 Goals
+
+- ✅ Strengthen JavaScript fundamentals deeply
+- ✅ Confidently explain any JS concept in interviews & real-world dev
+- ✅ Improve problem-solving and the way I *think* about JavaScript
+- ✅ Build a consistent daily habit — one step every day
+- ✅ Document the journey publicly for accountability
 
 ---
 
@@ -39,46 +57,54 @@ Most developers write JavaScript daily but rarely stop to understand what's happ
 
 ---
 
-## 🗂️ Structure
+## 📁 Repository Structure
 
 ```
-js-revision-challenge/
+js-20-day-challenge/
 ├── README.md               ← You are here
+├── banner.png
 ├── day-01/
-│   └── README.md
+│   └── README.md           ← Script Loading, Variables, Memory, JS Engine
 ├── day-02/
 │   └── README.md
 └── ...
 ```
 
 Each day folder contains a `README.md` with:
-- Questions explored that day
-- Concept explanations with examples
-- Code snippets and memory/visual diagrams
-- Quick reference summary
+- 📝 Questions explored that day
+- 💡 Concept explanations with examples
+- 🧩 Code snippets and diagrams
+- ⚡ Quick reference summary
 
 ---
 
-## 🧠 What This Covers
+## 🧠 Concepts Being Covered
 
-The challenge progressively builds from browser behavior to language internals to patterns used in real full-stack apps:
-
-- **How JS runs** — script loading, the JS engine, call stack, event loop
-- **Core language** — types, scope, closures, hoisting, coercion
-- **Functions deep dive** — first-class functions, callbacks, arrow functions, IIFE
-- **Objects & Prototypes** — `this`, prototype chain, `class` syntax
-- **Async JS** — callbacks, promises, `async/await`, error handling
-- **Modern JS** — ES6+ features, modules, destructuring, spread/rest
-- **Problem solving** — patterns and approaches used in Node/React/Next apps
+```
+Variables & Types        Closures          Promises
+Scope & Hoisting         this keyword      Async / Await
+Memory Model             Prototypes        Event Loop
+The JS Engine            DOM               Asynchronous JS
+Functions & Callbacks    ES6+ Features     Modules
+```
 
 ---
 
 ## 🛠️ Stack Context
 
-This challenge is written from the perspective of a **full-stack JavaScript developer** working with:
+Notes and examples are written from the perspective of a **full-stack JavaScript developer** working with:
 
 `React` · `Next.js` · `Node.js` · `Express` · `MongoDB` · `PostgreSQL` · `Prisma` · `Drizzle`
 
-Examples and analogies are tied to real use cases — not just toy code.
+---
+
+## 🔗 Links
+
+- 📺 **Playlist / Series:** [Watch Here](https://lnkd.in/gmV4JU_C)
+- 💼 **LinkedIn:** [Follow the journey](https://www.linkedin.com/feed/)
 
 ---
+
+## 🤝 Let's Connect
+
+If you're also revisiting fundamentals or learning JavaScript — feel free to connect, follow along, or use these notes for your own revision.
