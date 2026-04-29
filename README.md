@@ -1,6 +1,4 @@
-# 20 Days of JavaScript — Back to the Fundamentals
-
-![20 Days of JavaScript](./assets/WhatsApp Image 2026-04-29 at 11.06.58 PM (1).jpeg)
+![20 Days of JavaScript](./assets/WhatsApp%20Image%202026-04-29%20at%2011.06.58%20PM%20(1).jpeg)
 
 > **Strong Fundamentals. Endless Possibilities.**
 
