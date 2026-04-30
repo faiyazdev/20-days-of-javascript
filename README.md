@@ -10,7 +10,7 @@ I already know JavaScript.
 
 But this time, I'm revisiting it with a completely different mindset.
 
-I'm not going through these concepts because I'm new to them. I'm doing it because I want to strengthen my fundamentals so deeply that I can **confidently explain, discuss, and solve problems** around any JavaScript concept — during interviews, in projects, and in real-world development.
+I'm not going through these concepts because I'm new to them. I'm doing it because I want to strengthen my fundamentals so deeply that I can **confidently explain, discuss, and solve problems** around any JavaScript concept `in english` — during interviews, in projects, and in real-world development.
 
 ---
 
