@@ -55,44 +55,10 @@ So for the next **20 days**, I'll be revisiting JavaScript — not as a beginner
 
 ---
 
-## 📁 Repository Structure
-
-```
-js-20-day-challenge/
-├── README.md               ← You are here
-├── banner.png
-├── day-01/
-│   └── README.md           ← Script Loading, Variables, Memory, JS Engine
-├── day-02/
-│   └── README.md
-└── ...
-```
-
 Each day folder contains a `README.md` with:
-- 📝 Questions explored that day
-- 💡 Concept explanations with examples
-- 🧩 Code snippets and diagrams
-- ⚡ Quick reference summary
-
----
-
-## 🧠 Concepts Being Covered
-
-```
-Variables & Types        Closures          Promises
-Scope & Hoisting         this keyword      Async / Await
-Memory Model             Prototypes        Event Loop
-The JS Engine            DOM               Asynchronous JS
-Functions & Callbacks    ES6+ Features     Modules
-```
-
----
-
-## 🛠️ Stack Context
-
-Notes and examples are written from the perspective of a **full-stack JavaScript developer** working with:
-
-`React` · `Next.js` · `Node.js` · `Express` · `MongoDB` · `PostgreSQL` · `Prisma` · `Drizzle`
+* 📝 Questions explored that day
+* 💡 Concepts covered that day
+* 🧩 Code snippets and diagrams (if needed)
 
 ---
 
