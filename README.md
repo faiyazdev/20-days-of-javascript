@@ -17,8 +17,9 @@ I'm not going through these concepts because I'm new to them. I'm doing it becau
 ## 🎯 Goals
 
 - ✅ Strengthen JavaScript fundamentals deeply
-- ✅ Confidently explain any JS concept in interviews & real-world dev
-- ✅ Improve problem-solving and the way I *think* about JavaScript
+- ✅ Confidently explain any JS concept in English during interviews & real-world development
+- ✅ Improve problem-solving and the way I think about JavaScript
+- ✅ Build the ability to clearly communicate technical ideas in English
 - ✅ Build a consistent daily habit — one step every day
 - ✅ Document the journey publicly for accountability
 
