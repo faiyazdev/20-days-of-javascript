@@ -28,37 +28,45 @@ So for the next **20 days**, I'll be revisiting JavaScript — not as a beginner
 
 ---
 
-## 📅 Progress Tracker
 
-| Day | Topic | Status |
-|-----|-------|--------|
-| [Day 01](./day-01/README.md) | Script Loading + Variables, Memory Model, JS Engine | ✅ Done |
-| Day 02 | — | 🔒 |
-| Day 03 | — | 🔒 |
-| Day 04 | — | 🔒 |
-| Day 05 | — | 🔒 |
-| Day 06 | — | 🔒 |
-| Day 07 | — | 🔒 |
-| Day 08 | — | 🔒 |
-| Day 09 | — | 🔒 |
-| Day 10 | — | 🔒 |
-| Day 11 | — | 🔒 |
-| Day 12 | — | 🔒 |
-| Day 13 | — | 🔒 |
-| Day 14 | — | 🔒 |
-| Day 15 | — | 🔒 |
-| Day 16 | — | 🔒 |
-| Day 17 | — | 🔒 |
-| Day 18 | — | 🔒 |
-| Day 19 | — | 🔒 |
-| Day 20 | — | 🔒 |
+## Each day folder contains two `.md` files:
+
+### 1. `README.md`
+
+* 💡 Concepts covered that day
+* 📝 Questions explored that day
+
+### 2. `answer.md`
+
+* 📖 Answers to all questions
+* 🧩 Code snippets, examples, and explanations
 
 ---
 
-Each day folder contains a `README.md` with:
-* 📝 Questions explored that day
-* 💡 Concepts covered that day
-* 🧩 Code snippets and diagrams (if needed)
+## 📅 Progress Tracker
+
+| Day | Resources | Summary | Status |
+|-----|----------|--------|--------|
+| Day 01 | [Concepts](./day-01/README.md) • [Answers](./day-01/answer.md) | Browser JS loading, Variables (var/let/const), Pass by value vs reference, Primitive vs Non-primitive, Stack & Heap, JS engine execution | ✅ |
+| Day 02 | — | — | 🔒 |
+| Day 03 | — | — | 🔒 |
+| Day 04 | — | — | 🔒 |
+| Day 05 | — | — | 🔒 |
+| Day 06 | — | — | 🔒 |
+| Day 07 | — | — | 🔒 |
+| Day 08 | — | — | 🔒 |
+| Day 09 | — | — | 🔒 |
+| Day 10 | — | — | 🔒 |
+| Day 11 | — | — | 🔒 |
+| Day 12 | — | — | 🔒 |
+| Day 13 | — | — | 🔒 |
+| Day 14 | — | — | 🔒 |
+| Day 15 | — | — | 🔒 |
+| Day 16 | — | — | 🔒 |
+| Day 17 | — | — | 🔒 |
+| Day 18 | — | — | 🔒 |
+| Day 19 | — | — | 🔒 |
+| Day 20 | — | — | 🔒 |
 
 ---
 
