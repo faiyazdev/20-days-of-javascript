@@ -47,7 +47,7 @@ So for the next **20 days**, I'll be revisiting JavaScript — not as a beginner
 
 | Day | Resources | Summary | Status |
 |-----|----------|--------|--------|
-| 01 | [Concepts](./day-01/README.md) • [Answers](./day-01/answer.md) | Browser JS loading, Variables (var/let/const), Pass by value vs reference, Primitive vs Non-primitive, Stack & Heap, JS engine execution | ✅ |
+| 01 | [Concepts](./day-01/README.md) [Answers](./day-01/answer.md) | Browser JS loading, Variables (var/let/const), Pass by value vs reference, Primitive vs Non-primitive, Stack & Heap, JS engine execution | ✅ |
 | 02 | — | — | 🔒 |
 | 03 | — | — | 🔒 |
 | 04 | — | — | 🔒 |
