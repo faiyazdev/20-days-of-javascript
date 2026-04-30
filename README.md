@@ -12,10 +12,6 @@ But this time, I'm revisiting it with a completely different mindset.
 
 I'm not going through these concepts because I'm new to them. I'm doing it because I want to strengthen my fundamentals so deeply that I can **confidently explain, discuss, and solve problems** around any JavaScript concept — during interviews, in projects, and in real-world development.
 
-As developers grow, the same concepts begin to make deeper sense. Things that once looked "basic" start revealing how powerful they actually are.
-
-So for the next **20 days**, I'll be revisiting JavaScript — not as a beginner, but as a developer focused on sharpening fundamentals, improving problem-solving skills, and building a deeper understanding of the language.
-
 ---
 
 ## 🎯 Goals
