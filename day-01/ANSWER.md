@@ -1,11 +1,3 @@
-# 📘 Day 01 — JavaScript Fundamentals
-
-> **Learning Path:** Full Stack JavaScript Development  
-> **Topic:** How JS Loads in the Browser + Core Language Concepts  
-> **Parts:** 2 Parts | 19 Questions Covered
-
----
-
 ## 📦 Part 01 — How JavaScript Loads in the Browser
 
 ### 01. Why can putting `<script>` in `<head>` cause errors?
@@ -353,5 +345,314 @@ Object     → copied by REFERENCE → object in HEAP, pointer in STACK
 
 ---
 
-> 📅 **Day 01 Complete!**  
-> Next up: Functions, Scope, Closures, and the Call Stack in depth.
+## 🧩 Part 02 — 
+
+### 01. What is a variable in JavaScript, and why is it used?
+
+A variable is a **named container that stores a value** in memory. It allows you to label data so you can reference, reuse, and manipulate it throughout your code.
+
+```js
+let userName = "Alice";
+const MAX_SCORE = 100;
+```
+
+Without variables, you'd have to hardcode every value — making code impossible to maintain or reuse.
+
+---
+
+### 02. What are the rules for naming variables in JavaScript?
+
+These are **hard rules** — breaking them causes errors:
+
+- Must start with a letter, `_`, or `$` — not a number
+- Cannot contain spaces or special characters (except `_` and `$`)
+- Cannot use reserved keywords (`let`, `return`, `class`, etc.)
+- Case-sensitive — `name` and `Name` are two different variables
+
+```js
+let $price = 10;    // ✅ valid
+let _count = 0;     // ✅ valid
+let 1score = 5;     // ❌ invalid — starts with number
+let let = 3;        // ❌ invalid — reserved keyword
+```
+
+---
+
+### 03. What are best practices for writing clean and meaningful variable names?
+
+These are **conventions** — not enforced by JS, but expected by every team:
+
+| Practice | Bad | Good |
+|----------|-----|------|
+| Use `camelCase` | `username` | `userName` |
+| Be descriptive | `x` | `totalPrice` |
+| Avoid abbreviations | `usr` | `user` |
+| Use `UPPER_SNAKE_CASE` for constants | `maxscore` | `MAX_SCORE` |
+| Boolean names should sound like questions | `active` | `isActive`, `hasError` |
+
+```js
+// ❌ unclear
+let d = 7;
+let fn = "Alice";
+
+// ✅ clean and readable
+let daysInWeek = 7;
+let firstName = "Alice";
+```
+
+---
+
+### 04. What is a specifier in JavaScript, and where is it commonly used?
+
+A **specifier** refers to the identifier used to specify *what* you want to import or export in ES Modules. It tells the JS engine exactly which binding to bring in or send out from a module.
+
+```js
+// "userName" here is the specifier
+import { userName } from "./user.js";
+```
+
+The term also loosely refers to `var`, `let`, and `const` as **variable declaration specifiers** — they specify *how* a variable is declared and scoped.
+
+---
+
+### 05. What are the different types of specifiers?
+
+**Variable Declaration Specifiers:**
+
+| Specifier | Scope | Re-assignable | Hoisted |
+|-----------|-------|---------------|---------|
+| `var` | Function | ✅ Yes | ✅ Yes (`undefined`) |
+| `let` | Block | ✅ Yes | ⚠️ TDZ |
+| `const` | Block | ❌ No | ⚠️ TDZ |
+
+**ES Module Specifiers:**
+
+```js
+// Named export specifier
+export { add, subtract };
+
+// Named import specifier
+import { add, subtract } from "./math.js";
+
+// Default specifier
+export default function greet() {}
+import greet from "./greet.js";
+
+// Aliased specifier
+import { add as sum } from "./math.js";
+```
+
+---
+
+### 06. What does "pass by value" mean in JavaScript?
+
+Pass by value means when you assign or pass a **primitive value**, JavaScript copies the actual value — not a reference to it. The original and the copy are completely independent.
+
+```js
+let a = 10;
+let b = a;  // b gets a COPY of a's value
+
+b = 99;
+
+console.log(a); // 10 — unchanged
+console.log(b); // 99
+```
+
+Changing `b` has zero effect on `a`.
+
+---
+
+### 07. How does pass by value behave when passing variables to functions?
+
+The function receives a **copy** of the value. Modifying it inside the function does not affect the original variable outside.
+
+```js
+function double(num) {
+  num = num * 2;
+  console.log(num); // 20
+}
+
+let score = 10;
+double(score);
+
+console.log(score); // 10 — original untouched
+```
+
+The function worked on its own copy of `score`, not the original.
+
+---
+
+### 08. What are primitive data types in JavaScript?
+
+Primitives are the most basic data types. JavaScript has **7 primitive types**:
+
+| Type | Example |
+|------|---------|
+| `string` | `"hello"` |
+| `number` | `42`, `3.14` |
+| `boolean` | `true`, `false` |
+| `undefined` | `let x;` |
+| `null` | `let y = null` |
+| `bigint` | `9007199254740991n` |
+| `symbol` | `Symbol("id")` |
+
+Primitives are **immutable** — you can't change the value itself, only reassign the variable.
+
+---
+
+### 09. What are non-primitive (reference) data types in JavaScript?
+
+Non-primitives are complex data structures that can hold **collections of values**:
+
+```js
+// Object
+let user = { name: "Alice", age: 25 };
+
+// Array
+let scores = [10, 20, 30];
+
+// Function
+function greet() { return "Hello"; }
+```
+
+Everything that is not a primitive is an **object** under the hood in JavaScript.
+
+---
+
+### 10. What are the key differences between primitive and non-primitive values?
+
+| | Primitive | Non-Primitive |
+|-|-----------|---------------|
+| Stored in | Stack | Heap (reference in Stack) |
+| Copied by | Value | Reference |
+| Mutable? | ❌ No | ✅ Yes |
+| Comparison | By value | By reference |
+| Examples | `string`, `number`, `boolean` | `object`, `array`, `function` |
+
+---
+
+### 11. How are primitive values stored in memory?
+
+Primitives are stored **directly in the Stack**. The Stack is fast, fixed-size memory that holds the actual value right next to the variable name.
+
+```
+STACK
+┌─────────────────┐
+│ name = "Alice"  │
+│ age  = 25       │
+│ isOn = true     │
+└─────────────────┘
+```
+
+The value lives right there — no indirection, no pointer.
+
+---
+
+### 12. How are non-primitive values stored in memory?
+
+Non-primitives are stored in the **Heap**. The variable in the Stack holds only a **reference (memory address)** pointing to where the actual object lives in the Heap.
+
+```
+STACK                        HEAP
+┌──────────────────┐         ┌──────────────────────────┐
+│ user → 0x001     │ ──────► │ 0x001 → { name: "Alice" }│
+│ scores → 0x002   │ ──────► │ 0x002 → [10, 20, 30]     │
+└──────────────────┘         └──────────────────────────┘
+```
+
+---
+
+### 13. Why are non-primitive values called reference types?
+
+Because the variable doesn't hold the object itself — it holds a **reference** (a pointer) to the object's location in Heap memory. When you use the variable, JS follows that pointer to find the actual data.
+
+This is why they're called **reference types** — you're always working through a reference, not with the value directly.
+
+---
+
+### 14. What happens in memory when you copy a primitive vs a non-primitive?
+
+**Primitive — a new copy is made:**
+
+```js
+let a = 10;
+let b = a;  // new independent copy in Stack
+b = 99;
+console.log(a); // 10 — unaffected
+```
+
+**Non-primitive — the reference is copied, not the object:**
+
+```js
+let user1 = { name: "Alice" };
+let user2 = user1;  // both point to the SAME heap object
+
+user2.name = "Bob";
+console.log(user1.name); // "Bob" — same object!
+```
+
+Both `user1` and `user2` are looking at the same place in Heap memory.
+
+---
+
+### 15. How does memory storage affect comparison between primitives and non-primitives?
+
+**Primitives compare by value:**
+
+```js
+let a = "hello";
+let b = "hello";
+console.log(a === b); // true — same value
+```
+
+**Non-primitives compare by reference:**
+
+```js
+let arr1 = [1, 2, 3];
+let arr2 = [1, 2, 3];
+console.log(arr1 === arr2); // false — different objects in memory
+
+let arr3 = arr1;
+console.log(arr1 === arr3); // true — same reference
+```
+
+Even if two objects look identical, they are `===` only if they point to the **exact same object in Heap memory**.
+
+---
+
+## 🗂️ Quick Reference Summary
+
+### Script Loading Strategies
+
+```
+<script>               → Blocks parsing. Executes immediately. ❌ Avoid in <head>
+<script defer>         → Non-blocking. Executes after DOM. ✅ Best for most scripts
+<script async>         → Non-blocking download, executes ASAP (unordered). ⚠️ Use carefully
+<script type="module"> → Deferred by default + ES module features. ✅ Modern standard
+```
+
+### Variable Specifiers
+
+```
+var   → function-scoped, hoisted, avoid in modern code
+let   → block-scoped, reassignable, TDZ applies
+const → block-scoped, not reassignable, TDZ applies
+```
+
+### Memory Model
+
+```
+Primitive      → copied by VALUE     → stored in STACK
+Non-Primitive  → copied by REFERENCE → object in HEAP, pointer in STACK
+```
+
+### Primitive vs Non-Primitive Comparison
+
+```
+Primitive      → compared by VALUE     → "hello" === "hello" ✅
+Non-Primitive  → compared by REFERENCE → [] === [] ❌ (different objects)
+```
+
+---
+
+> 📅 **Day 01 Complete — 19 days to go!**
