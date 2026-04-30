@@ -47,26 +47,26 @@ So for the next **20 days**, I'll be revisiting JavaScript — not as a beginner
 
 | Day | Resources | Summary | Status |
 |-----|----------|--------|--------|
-| Day 01 | [Concepts](./day-01/README.md) • [Answers](./day-01/answer.md) | Browser JS loading, Variables (var/let/const), Pass by value vs reference, Primitive vs Non-primitive, Stack & Heap, JS engine execution | ✅ |
-| Day 02 | — | — | 🔒 |
-| Day 03 | — | — | 🔒 |
-| Day 04 | — | — | 🔒 |
-| Day 05 | — | — | 🔒 |
-| Day 06 | — | — | 🔒 |
-| Day 07 | — | — | 🔒 |
-| Day 08 | — | — | 🔒 |
-| Day 09 | — | — | 🔒 |
-| Day 10 | — | — | 🔒 |
-| Day 11 | — | — | 🔒 |
-| Day 12 | — | — | 🔒 |
-| Day 13 | — | — | 🔒 |
-| Day 14 | — | — | 🔒 |
-| Day 15 | — | — | 🔒 |
-| Day 16 | — | — | 🔒 |
-| Day 17 | — | — | 🔒 |
-| Day 18 | — | — | 🔒 |
-| Day 19 | — | — | 🔒 |
-| Day 20 | — | — | 🔒 |
+| 01 | [Concepts](./day-01/README.md) • [Answers](./day-01/answer.md) | Browser JS loading, Variables (var/let/const), Pass by value vs reference, Primitive vs Non-primitive, Stack & Heap, JS engine execution | ✅ |
+| 02 | — | — | 🔒 |
+| 03 | — | — | 🔒 |
+| 04 | — | — | 🔒 |
+| 05 | — | — | 🔒 |
+| 06 | — | — | 🔒 |
+| 07 | — | — | 🔒 |
+| 08 | — | — | 🔒 |
+| 09 | — | — | 🔒 |
+| 10 | — | — | 🔒 |
+| 11 | — | — | 🔒 |
+| 12 | — | — | 🔒 |
+| 13 | — | — | 🔒 |
+| 14 | — | — | 🔒 |
+| 15 | — | — | 🔒 |
+| 16 | — | — | 🔒 |
+| 17 | — | — | 🔒 |
+| 18 | — | — | 🔒 |
+| 19 | — | — | 🔒 |
+| 20 | — | — | 🔒 |
 
 ---
 
