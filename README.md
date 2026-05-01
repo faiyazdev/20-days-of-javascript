@@ -44,8 +44,8 @@ I'm not going through these concepts because I'm new to them. I'm doing it becau
 
 | Day | Resources | Summary | Status |
 |-----|----------|--------|--------|
-| 01 | [Concepts](./day-01/README.md) [Answers](./day-01/answer.md) | Browser JS loading, Variables (var/let/const), Pass by value vs reference, Primitive vs Non-primitive, Stack & Heap, JS engine execution | ✅ |
-| 02 | — | — | 🔒 |
+| 01 | [Overview](./day-01/README.md) [Questions](./day-01/QUESTIONS.md) | Browser JS loading, Variables (var/let/const), Pass by value vs reference, Primitive vs Non-primitive, Stack & Heap, JS engine execution | ✅ |
+| 02 | [Overview](./day-02/README.md) [Questions](./day-02/QUESTIONS.md) | Operators + Control Flow + if/else + switch | ✅ |
 | 03 | — | — | 🔒 |
 | 04 | — | — | 🔒 |
 | 05 | — | — | 🔒 |
