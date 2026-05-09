@@ -15,9 +15,4 @@
 | 5 | Call Stack | How JS tracks execution contexts |
 | 6 | Stack vs Heap | Where different types of data are stored |
 
----
 
-> 👋 Hey fellow devs — try to answer these yourself before looking anything up.
-> Challenge yourself first. If you get stuck or want to verify your answers,
-> refer to the [ANSWER.md](./ANSWER.md) file.
-> You might even find a better way to explain something — feel free to build on it. 🚀
