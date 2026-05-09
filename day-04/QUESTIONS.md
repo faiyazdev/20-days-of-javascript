@@ -1,4 +1,4 @@
-## ⚙️ Execution Context — Questions
+## Questions
 
 ### Global Execution Context (GEC)
 
@@ -33,7 +33,7 @@
 
 ## 🗂️ Quick Reference Cheatsheet
 
-> Fill this in yourself as a revision exercise — then check against [ANSWER.md](./ANSWER.md) 👇
+> Fill this in yourself as a revision exercise — then check against [ANSWERS.md](./ANSWERS.md) 👇
 
 **Two types of Execution Context:**
 ```
@@ -75,5 +75,4 @@ Heap  →
 
 ---
 
-> 📅 **Day 04 — Done!**
-> Stuck on any of these? Head to [ANSWER.md](./ANSWER.md) for full explanations. 💡
+> Stuck on any of these? Head to [ANSWER.md](./ANSWERS.md) for full explanations. 💡
