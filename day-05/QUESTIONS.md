@@ -79,7 +79,9 @@
 ### var vs let vs const — Scope Behavior
 
 5. Does `var` have block scope?
-6. Which keyword attaches to `window` globally?
+6. Does `var` respect `{}` blocks?
+7. Are `let` and `const` function scoped?
+8. Which keyword attaches to `window` globally?
 7. Why are `let` and `const` safer than `var`?
 8. Which keywords are block scoped?
 9. Why is `var` discouraged in modern JS?
