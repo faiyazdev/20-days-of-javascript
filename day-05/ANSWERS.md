@@ -1,4 +1,3 @@
-
 ## 🔼 Part 01 — Hoisting & TDZ
 
 ---
@@ -314,6 +313,52 @@ console.log(x); // ❌ ReferenceError — block scope ended
 console.log(a); // ✅ 10 — var leaked out of block
 console.log(b); // ❌ ReferenceError — let is block scoped
 ```
+
+---
+
+### Does `var` respect `{}` blocks?
+
+**No.** `var` completely ignores block boundaries. Any `{}` that is NOT a function — like `if`, `for`, `while`, or a standalone block — does not contain `var`. It leaks out into the nearest function or global scope.
+
+```js
+if (true) {
+  var x = 10;
+}
+console.log(x); // ✅ 10 — leaked out of if block
+
+for (var i = 0; i < 3; i++) {}
+console.log(i); // ✅ 3 — leaked out of for block
+
+{
+  var secret = "exposed";
+}
+console.log(secret); // ✅ "exposed" — leaked out of standalone block
+```
+
+> The only `{}` that traps `var` is a **function body**.
+
+---
+
+### Are `let` and `const` function scoped?
+
+**Not exactly — they are block scoped.** But since a function body is also a block `{}`, they are naturally contained within functions too. The key difference is they are also contained within *any* `{}` — not just functions.
+
+```js
+function demo() {
+  let x = 10;   // contained in function ✅
+  const y = 20; // contained in function ✅
+}
+console.log(x); // ❌ ReferenceError
+
+if (true) {
+  let a = 1;   // contained in if block ✅
+  const b = 2; // contained in if block ✅
+}
+console.log(a); // ❌ ReferenceError — block ended
+```
+
+> `var` → function scoped only
+> `let` / `const` → block scoped (which includes functions, if blocks, for loops, any `{}`)
 
 ---
 
