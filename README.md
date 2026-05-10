@@ -38,7 +38,7 @@ I'm not going through these concepts because I'm new to them. I'm doing it becau
 * 📖 Answers to all questions
 * 🧩 Code snippets, examples, and explanations
 
----
+--- 
 
 ## 📅 Progress Tracker
 
@@ -48,7 +48,7 @@ I'm not going through these concepts because I'm new to them. I'm doing it becau
 | 02 | [Overview](./day-02/README.md) [Questions](./day-02/QUESTIONS.md) | Operators + Control Flow + if/else + switch | ✅ |
 | 03 | — | — | 🔒 |
 | 04 | — | — | 🔒 |
-| 05 | — | — | 🔒 |
+| 05 | [Overview](./day-05/OVERVIEW.md) [Questions](./day-05/QUESTIONS.md) | Hoisting, Temporal Dead Zone (TDZ), Scope chain | ✅ |
 | 06 | — | — | 🔒 |
 | 07 | — | — | 🔒 |
 | 08 | — | — | 🔒 |
