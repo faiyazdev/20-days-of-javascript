@@ -7,12 +7,8 @@
 
 ### What is lexical scope? (detailed definition)
 
-**Lexical scope** means that the scope of a variable is determined by **where it is written in the source code** — not where the function is called from or when it runs.
+**Lexical scope** means that the scope of a variable is determined by **where it is written in the source code** — not where the function is called from or when it runs. So Lexical scope determines which parent/outer scopes a function can access based on where it is defined
 
-The word *lexical* refers to the **lexing/parsing phase** — the stage where the JS engine reads your code before executing it. During this phase, the engine sees the physical structure of your code and determines which variables belong to which scope.
-
-In simple terms:
-> **Your scope is decided at the time you write the code, not at the time you run it.**
 
 ```js
 let name = "global";
@@ -100,28 +96,6 @@ Each scope has a hidden `[[Environment]]` reference pointing to its parent — t
 
 ---
 
-### Can calling location change a function's scope?
-
-**No — never.** Lexical scope is fixed at **write time**, not call time. No matter where you call a function from, it always refers to the scope where it was **defined**.
-
-```js
-let value = "global";
-
-function show() {
-  console.log(value); // always looks at its definition context
-}
-
-function override() {
-  let value = "local"; // this does NOT affect show()
-  show();              // still prints "global"
-}
-
-override(); // "global" — calling location is irrelevant
-```
-
-This is what makes JS **predictable** — you can always look at where a function is written to know what variables it will access.
-
----
 
 ### Why does lexical scope make JS predictable?
 
@@ -146,7 +120,7 @@ greet(); // "Hello" — you knew this from reading the code
 A **closure** is a function that **retains access to its lexical scope** — including the variables from its outer function — **even after the outer function has finished executing**.
 
 More precisely:
-> A closure is the **combination of a function and the lexical environment** in which it was defined.
+> A function remembers and can access variables from its outer scope even after the outer function has finished executing.
 
 When a function is created, it doesn't just store its code — it also stores a **reference to the environment (scope) it was born in**. This is the closure.
 
