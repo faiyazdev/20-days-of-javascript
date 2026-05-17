@@ -1,6 +1,5 @@
-# 📘 Day 06 — Lexical Scope & Closures
-> **Topic:** Lexical Scope, Closures, Memory Preservation & Private State
-> **Parts:** Part 01 | 17 Questions Covered
+# 📘 Day 06 — Lexical Scope, Closures & Objects
+> **Topic:** Lexical Scope, Closures, Memory Preservation & Private State, Objects
 
 ---
 
