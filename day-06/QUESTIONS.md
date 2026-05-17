@@ -5,7 +5,7 @@
 
 ---
 
-## 🔗 Part 01 — Lexical Scope & Closures
+## 🔗 Part 01 — Lexical Scope, Closures and Objects
 
 ### Lexical Scope
 
@@ -37,7 +37,76 @@
 16. What exactly does a closure preserve?
 17. "Variables are already private inside functions because of function scope… so why do people say closures create private variables?"
 
+
 ---
+## 🔗 Part 02 — JavaScript Objects: Deep Dive
+
+### 🔵 Object Basics
+
+1. What is an object in JavaScript?
+2. How many ways are there for creating an object?
+3. What is an object literal?
+4. What is the difference between dot and bracket notation?
+5. When should bracket notation be used — dynamic key-value and special characters?
+6. How do you add a property to an object?
+7. How do you delete a property?
+
+---
+
+### 🔵 Constructor Functions
+
+8. What is a constructor function?
+9. What does `this` refer to inside constructor functions?
+10. What happens if you forget `new`?
+11. Why are constructor functions useful?
+
+---
+
+### 🔵 Object Constructor & Factory
+
+12. What is the `Object` constructor in JavaScript?
+13. Why do we usually prefer `{}` over `new Object()`?
+14. Do object literals and constructor objects represent the same object in JS?
+15. How do you create objects using a factory function?
+
+---
+
+### 🔵 Object Features & Iteration
+
+16. What is object shorthand?
+17. What are object methods inside of an object?
+18. How does the `in` operator come in handy in terms of objects?
+19. What is the use case of the `for...in` loop?
+20. What are `Object.keys()`, `Object.values()`, `Object.entries()`, and `Object.fromEntries()` in JavaScript?
+
+---
+
+### 🔵 Object References & Memory
+
+21. What is an object reference?
+22. Do variables store actual objects directly?
+23. Why does changing one object variable affect another?
+24. Why is `{x:1} === {x:1}` false?
+25. Is JS technically pass-by-reference?
+26. What is pass by value and pass by reference?
+
+---
+
+### 🔵 Copying & Immutability
+
+27. What does `Object.assign()` do? What are target and source objects? Does it create a deep copy or shallow copy? What modern syntax often replaces it?
+28. What is the difference between shallow copy and deep copy?
+29. What is the difference between `Object.freeze()` and `Object.seal()`?
+
+---
+
+### 🔵 Advanced Object Concepts
+
+30. What are static methods in JS?
+31. What is the `Object.hasOwn()` method?
+32. What is object destructuring (as well as nested)?
+33. What are aliases in destructuring?
+34. What is optional chaining (`?.`)?
 
 ## 🗂️ Quick Reference Cheatsheet
 
