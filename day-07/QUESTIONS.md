@@ -42,3 +42,15 @@
 ### 🔵 Interview Questions
 
 16. Common interview questions and answers on the `this` keyword?
+
+---
+
+### 🔴 Part 02 — Errors & Error Handling
+
+17. What are errors in JavaScript and how do you handle them with `try-catch`?
+18. What is the Error object?
+19. What does throwing an error mean?
+20. What is rethrowing an error? (detailed)
+21. What is the use case of `finally` in `try-catch`?
+22. Is `Error` a constructor function?
+23. How do you create custom errors using the built-in `Error` constructor function?
