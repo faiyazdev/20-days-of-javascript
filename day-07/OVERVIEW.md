@@ -41,4 +41,20 @@ This day covers **every binding rule** JavaScript uses to determine what `this` 
 
 ---
 
-*Day 07 — Part 01 of Full Stack JavaScript Learning Journey*
+*Day 07 — Part 01 & Part 02 of Full Stack JavaScript Learning Journey*
+
+---
+
+## ⚡ Part 02 — Errors & Error Handling
+
+> Errors are inevitable. Knowing how to handle them gracefully is what separates production-ready code from fragile scripts.
+
+| # | Topic | Key Concept |
+|---|-------|-------------|
+| 17 | Errors in JS & `try-catch` | Catching runtime errors without crashing the program |
+| 18 | The Error Object | `name`, `message`, `stack` — anatomy of an error |
+| 19 | Throwing Errors | Manually raising errors with `throw` |
+| 20 | Rethrowing Errors | Catch, inspect, re-throw if it's not yours to handle |
+| 21 | `finally` Use Cases | Code that always runs — cleanup, logging, resource release |
+| 22 | Is `Error` a Constructor? | Yes — `new Error("msg")` creates error instances |
+| 23 | Custom Errors | Extending `Error` to create domain-specific error types |
